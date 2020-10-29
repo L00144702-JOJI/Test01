@@ -1,15 +1,20 @@
 package pkg01;
 
 public class MainClass {
+	
+	int a_default = 10;
+	public int b_public = 20;
+	private int c_private = 30;
+	protected int d_protected = 40;  
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		System.out.println("Welcome to Java - Selenium");
-		System.out.println("This is my first program");
-		System.out.println("Hi, This is joji");
-		System.out.println("Integrated with Jenkines.");
-
+		MainClass mc = new MainClass();
+		System.out.println("In MainClass");
+		System.out.println("\tDefault_var: "+mc.a_default);
+		System.out.println("\tPublic_var: "+mc.b_public);
+		System.out.println("\tPrivate_var: "+mc.c_private);
+		System.out.println("\tProtected_var: "+mc.d_protected);
 	}
 
 }
