@@ -7,6 +7,7 @@ public class MainClass {
 		
 		System.out.println("Welcome to Java - Selenium");
 		System.out.println("This is my first program");
+		System.out.println("Hi, This is joji");
 
 	}
 
