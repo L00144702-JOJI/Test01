@@ -6,6 +6,7 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Welcome to Java - Selenium");
+		System.out.println("This is my first program");
 
 	}
 
